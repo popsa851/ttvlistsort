@@ -1,0 +1,93 @@
+# Kodi Media Center language file
+# Addon Name: TTV List Sort
+# Addon id: script.acesort
+# Addon Provider: popsa85
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32000"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "#32001"
+msgid "Channels"
+msgstr "Каналы"
+
+msgctxt "#32002"
+msgid "Edit channels"
+msgstr "Редактировать каналы"
+
+###########################################################
+
+msgctxt "#32040"
+msgid "Favourites Editor"
+msgstr "Редактор избранного"
+
+msgctxt "#32041"
+msgid "Avalaible"
+msgstr "Доступно"
+
+msgctxt "#32042"
+msgid "Available channels : "
+msgstr "Доступные каналы : "
+
+msgctxt "#32043"
+msgid "Count"
+msgstr "количество"
+
+msgctxt "#32046"
+msgid "Favourites"
+msgstr "Избранное"
+
+msgctxt "#32047"
+msgid "Selected channels : "
+msgstr "Выбранные каналы : "
+
+msgctxt "#32048"
+msgid "Count"
+msgstr "Колличество"
+
+msgctxt "#32049"
+msgid "Save"
+msgstr "Сохранить"
+
+msgctxt "#32050"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "#32051"
+msgid "Original Name"
+msgstr "Название"
+
+
+msgctxt "#32053"
+msgid "Icon"
+msgstr "Иконка"
+
+msgctxt "#32054"
+msgid "OK"
+msgstr ""
+
+msgctxt "#32055"
+msgid "Delete"
+msgstr "Удалить"
+
+msgctxt "#32056"
+msgid "Loading list..."
+msgstr "Загружаем список..."
+
+msgctxt "#32057"
+msgid "Edit"
+msgstr "Лист обновлен"
+
+
