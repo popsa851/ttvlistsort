@@ -27,9 +27,9 @@ class Channel:
 
 
 
-    def loadChannels(self):
+    def loadChannels(self, path):
         channels_list  = []
-        with codecs.open('/storage/.config/acelist/fav_full.txt', 'r', encoding='utf8') as fav:
+        with codecs.open(path, 'r', encoding='utf8') as fav:
             fav_list = fav.read().splitlines()
             i = 1
         for item in fav_list:
@@ -120,11 +120,18 @@ class GUI(Channel,xbmcgui.WindowXMLDialog):
 
     def updateChannelsList(self):
         a = 0
-        for chn in Channel.loadChannels(self):
+        s = 0
+        for chn in Channel.loadChannels(self, '/storage/.config/acelist/fav_full.txt'):
 
             Item = xbmcgui.ListItem(chn._Name)
             self._achannels_list.addItem(Item)
             a += 1
+
+        for chn in Channel.loadChannels(self, '/storage/.config/acelist/fav.txt'):
+
+            Item = xbmcgui.ListItem(chn._Name)
+            self._schannels_list.addItem(Item)
+            s += 1
 
         self.countUpadte()
 
